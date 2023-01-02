@@ -1,14 +1,14 @@
 export const experiencesFr = [
     {
-        title: "Dévloppeur en freelance",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2020 - 2021 (2 mois)",
-        technologies: 'C#, .NET, Angular 11, Angular Materials, pgSql, Qlik Sense',
+        title: "Técnico en Sistemas",
+        company: 'Darsalud y Bienestar S.A.S',
+        period: "2016 (6 meses)",
+        technologies: 'Windows, Linux y servidores',
         missions: [
-            "Mise en place d'un gestionnaire de thèmes (couleurs, logo).",
-            "Mise en place d'un gestionnaire de dossiers virtuels qui peuvent contenir des apps Qlik Sense.",
-            "Développement d'une interface de sauvegarde des ressources.",
-            "Création de pages web personnalisables : Qlik Sense Mashups (En cours).",
+            "Hacer mantenimiento al Hardware.",
+            "Operar programas de procesamiento de información y productos de reportes.",
+            "Mantener en operación la red informática, bajo los parámetros y funcionalidad establecidos para la misma.",
+            "Hacer copias de seguridad y respaldos de información, Coordinar y programar el uso de terminales y redes.",
         ],
         detailIsDisplayed: false,
     },
