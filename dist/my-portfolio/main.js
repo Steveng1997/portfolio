@@ -1034,7 +1034,6 @@ const locale = {
             'masterDegreeOneDesc': "General Master Computer Science",
             'bachlorDegree': "Bachelor's degree",
             'bachlorDegreeDesc': "Bachlor of Computer Science",
-            'university': 'University of Lille, FR',
             'mission': 'Mission',
             'technologies': 'Technologies',
             'detail': 'Detail',
@@ -1296,20 +1295,20 @@ const locale = {
     lang: 'fr',
     data: {
         'about': {
-            'title': 'A propos',
-            'jobTitle': "Développeur d'applications web et mobiles",
-            'introductionOfMe': "Intéressé par les nouvelles technologies et méthodes de travail. J'aime proposer des idées qui permettent d'améliorer les processus d'affaires.",
-            'passionateAboutDevelopment': ' Passionné par le développement',
+            'title': 'Perfil',
+            'jobTitle': "Desarrollador de aplicaciones web y móviles",
+            'introductionOfMe': "Interesado en nuevas tecnologías y métodos de trabajo. Me gusta generar ideas que permitan mejorar los procesos comerciales.",
+            'passionateAboutDevelopment': ' Apasionado del desarrollo',
             'mobility': 'Mobile dans toute la France',
             'years': 'ans',
-            'graduation': "Master 2 Informatique",
+            'graduation': "Tecnologia en Sistemas",
             'myResearch': 'Recherche de contrat CDI',
-            'researchDescription': "Je recherche une entreprise innovante et centrée sur l'utilisateur pour répondre au mieux aux besoins du client, de son idée à la livraison finale de son projet, ou participer à l'amélioration d'un projet existant.",
+            'researchDescription': "Busco una empresa innovadora y centrada en el usuario para satisfacer mejor las necesidades del cliente, desde su idea hasta la entrega final de su proyecto, o participar en la mejora de un proyecto existente.",
             'and': 'et',
             'followMeOn': 'Suivez-moi sur',
         },
         'contact': {
-            'contactMe': 'Contactez moi',
+            'contactMe': 'Contáctame',
             'notHesitateToContactMe': "N'hésitez pas à me contacter",
             'identify': 'Identifiant',
             'enterIdentify': 'Entrez votre identifiant',
@@ -1331,15 +1330,14 @@ const locale = {
             'languages': 'Langues',
             'fluent': 'Courant',
             'goodLevel': 'Bon niveau',
-            'french': 'Français',
+            'spanish': 'Spanish',
             'english': 'Anglais',
-            'masterDegreeTwo': "Master 2 Informatique E-services",
+            'masterDegreeTwo': "Tecnologia en Sistemas de Información",
             'masterDegreeTwoDesc': "Master en services numériques",
             'masterDegreeOne': "Master 1 Informatique",
             'masterDegreeOneDesc': "Master Général Informatique",
             'bachlorDegree': "Licence 3 Informatique",
             'bachlorDegreeDesc': "Licence en informatiques",
-            'university': 'Université de Lille, FR',
             'mission': 'Mission',
             'technologies': 'Téchnologies',
             'detail': 'Détail',
@@ -1348,17 +1346,17 @@ const locale = {
             'years': 'ans'
         },
         'header': {
-            'home': 'Accueil',
+            'home': 'Inicio',
             'about': 'A propos',
-            'skills': 'Compétences',
-            'references': 'Recommandations',
-            'contactMe': 'Me Contacter',
+            'skills': 'Habilidades',
+            'references': 'Referencias',
+            'contactMe': 'Contáctame',
         },
         'home': {
-            'iAmDeveloper': 'Je suis développeur',
+            'iAmDeveloper': 'Soy un desarrollador',
         },
         'projects': {
-            'title': 'Projets',
+            'title': 'Proyectos',
             'projectDetail': 'Détail projet',
             'sourceCode': 'Code source',
         },
@@ -1957,8 +1955,8 @@ class SkillsComponent {
     constructor(_translationLoaderService) {
         this._translationLoaderService = _translationLoaderService;
         this.skills = {
-            technologies: [{ name: "Java, J2EE, Spring, C#", percent: 90, remark: 'excellent' }, { name: "PHP", percent: 70, remark: 'good' }, { name: "Android", percent: 90, remark: 'excellent' }, { name: "Python, C++", percent: 70, remark: 'very-good' }, { name: "JavaScript, BootStrap, Angular", percent: 90, remark: 'excellent' }],
-            tools: [{ name: "Git", percent: 90, remark: 'excellent' }, { name: "Office", percent: 90, remark: 'excellent' }, { name: "Linux, Windows", percent: 70, remark: 'very-good' }, { name: "MySql, PgSql", percent: 90, remark: 'excellent' }, { name: "Docker, Kubernetes", percent: 50, remark: 'average' }],
+            technologies: [{ name: "Dynamics, React, C#", percent: 90, remark: 'excellent' }, { name: "PHP", percent: 70, remark: 'good' }, { name: "Android", percent: 90, remark: 'excellent' }, { name: "Python, C++", percent: 70, remark: 'very-good' }, { name: "JavaScript, BootStrap, Angular", percent: 90, remark: 'excellent' }],
+            tools: [{ name: "Git", percent: 90, remark: 'excellent' }, { name: "Office", percent: 90, remark: 'excellent' }, { name: "Linux, Windows", percent: 70, remark: 'very-good' }, { name: "MySql, SQL Server, Firebase", percent: 90, remark: 'excellent' }, { name: "Docker, Kubernetes", percent: 50, remark: 'average' }],
             methodologies: [{ name: "Scrum", percent: 70, remark: 'very-good' }, { name: "Uml", percent: 90, remark: 'excellent' }, { name: "Disign Thinking", percent: 70, remark: 'good' }, { name: "TDD", percent: 90, remark: 'excellent' }, { name: "DevOps", percent: 50, remark: 'average' }]
         };
         this._translationLoaderService.loadTranslations(_shared_i18n_en__WEBPACK_IMPORTED_MODULE_1__["locale"], _shared_i18n_fr__WEBPACK_IMPORTED_MODULE_2__["locale"]);
