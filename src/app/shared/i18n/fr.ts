@@ -27,13 +27,13 @@ export const locale = {
             'send': 'Envoyer',
         },
         'education': {
-            'title': 'Curriculum Vitae',
-            'eductionTitle': 'Éducation',
+            'title': 'Hoja de Vida',
+            'eductionTitle': 'Educación',
             'experiencesTitle': 'Experiencia',
             'centerOfInterest': "Centre d'intérêts",
-            'sport': 'Sport',
+            'sport': 'Deportes',
             'trips': 'Voyages',
-            'boardGames': 'Jeux de société',
+            'boardGames': 'Juegos de mesa',
             'languages': 'Langues',
             'fluent': 'Courant',
             'goodLevel': 'Bon niveau',
@@ -49,8 +49,9 @@ export const locale = {
             'technologies':'Tecnología',
             'detail':'Detalles',
             'tripsCountries':'Belgique, Espagne, Pays-Bas, Suisse',
-            'boardGamesPlayed':'Jeu de dames et de dominos, Among US, Ludo, ..etc',
-            'years':'años'
+            'boardGamesPlayed':'Ajedrez, Dominó, Parqués',
+            'years':'años',
+            'sportdesc':'Futbol, basketball, Gym'
         },
         'header': {
             'home': 'Inicio',

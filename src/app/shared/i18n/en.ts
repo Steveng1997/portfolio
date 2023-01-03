@@ -49,7 +49,8 @@ export const locale = {
             'detail':'Detail',
             'tripsCountries':'Belgium, Spain, Netherlands, Swiss',
             'boardGamesPlayed':'Checkers and dominoes game, Among US, Ludo, ..etc',
-            'years':'years'
+            'years':'years',
+            'sportdesc':'Soccer, basketball, Gym'
         },
         'header': {
             'home': 'Home',

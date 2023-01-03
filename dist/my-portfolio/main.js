@@ -1039,7 +1039,8 @@ const locale = {
             'detail': 'Detail',
             'tripsCountries': 'Belgium, Spain, Netherlands, Swiss',
             'boardGamesPlayed': 'Checkers and dominoes game, Among US, Ludo, ..etc',
-            'years': 'years'
+            'years': 'years',
+            'sportdesc':'Soccer, basketball, Gym'
         },
         'header': {
             'home': 'Home',
@@ -1320,13 +1321,13 @@ const locale = {
             'send': 'Envoyer',
         },
         'education': {
-            'title': 'Curriculum Vitae',
-            'eductionTitle': 'Éducation',
+            'title': 'Hoja de Vida',
+            'eductionTitle': 'Educación',
             'experiencesTitle': 'Experiencia',
             'centerOfInterest': "Centre d'intérêts",
-            'sport': 'Sport',
+            'sport': 'Deportes',
             'trips': 'Voyages',
-            'boardGames': 'Jeux de société',
+            'boardGames': 'Juegos de mesa',
             'languages': 'Langues',
             'fluent': 'Courant',
             'goodLevel': 'Bon niveau',
@@ -1338,12 +1339,13 @@ const locale = {
             'masterDegreeOneDesc': "Centro Nacional de Asistencia Técnica a la Industria ASTIN",
             'bachlorDegree': "Diploado en Desarrollo de APPS Moviles Hibridas",
             'bachlorDegreeDesc': "Fundación Centro Colombiano de Estudios Profesionales",
-            'mission': 'Mission',
+            'mission': 'Misión',
             'technologies': 'Téchnologies',
             'detail': 'Detalles',
             'tripsCountries': 'Belgique, Espagne, Pays-Bas, Suisse',
-            'boardGamesPlayed': 'Jeu de dames et de dominos, Among US, Ludo, ..etc',
-            'years': 'años'
+            'boardGamesPlayed': 'Ajedrez, Dominó, Parqués',
+            'years': 'años',
+            'sportdesc':'Futbol, basketball, Gym'
         },
         'header': {
             'home': 'Inicio',
@@ -1364,7 +1366,7 @@ const locale = {
             'title': 'Referencias',
         },
         'skills': {
-            'title': 'Compétences',
+            'title': 'Habilidades',
             'technologies': 'Téchnologies',
             'tools': 'Outils',
             'methodologies': 'Méthodologies'
