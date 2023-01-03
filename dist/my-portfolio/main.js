@@ -1026,7 +1026,7 @@ const locale = {
             'languages': 'Languages',
             'fluent': 'Fluent',
             'goodLevel': 'Good level',
-            'french': 'French',
+            'spanish': 'Spanish',
             'english': 'English',
             'masterDegreeTwo': "Master's degree 2 IT",
             'masterDegreeTwoDesc': "Master of degital services",
