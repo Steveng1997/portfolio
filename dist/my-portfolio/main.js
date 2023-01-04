@@ -150,12 +150,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ngx-translate/core */ "sYmb");
 
 
-
-
-
-
-
-
 class AboutComponent {
     constructor(_translationLoaderService) {
         this._translationLoaderService = _translationLoaderService;
@@ -348,13 +342,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "ofXK");
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ngx-translate/core */ "sYmb");
 
-
-
-
-
-
-
-
 const _c0 = function () { return { backgroundImage: "url(assets/images/home-background.jpg)" }; };
 class HomeComponent {
     constructor(_translationLoaderService) {
@@ -423,16 +410,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngx-translate/core */ "sYmb");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ "ofXK");
 /* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ "6NWb");
-
-
-
-
-
-
-
-
-
-
 
 function CurriculumVitaeComponent_li_56_span_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "span");
@@ -861,34 +838,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "experiencesEn", function() { return experiencesEn; });
 const experiencesEn = [
     {
-        title: "Freelance developer",
-        company: 'Scotfy, Lyon, Fr',
-        period: "2020 - 2021 (2 months)",
-        technologies: 'C#, .NET, Angular 11, Angular Materials, pgSql, Qlik Sense',
+        title: "System technique",
+        company: 'Darsalud y Bienestar S.A.S',
+        period: "2016 (6 months)",
+        technologies: 'Windows, Linux y servers',
         missions: [
-            "Implementation of a theme manager (colors, logo).",
-            "Setting up a virtual folder manager that can contain Qlik Sense apps.",
-            "Development of a resource saving interface.",
-            "Creating customizable web pages: Qlik Sense Mashups (In progress).",
+            "Perform preventive and corrective maintenance.",
+            "Operate information processing programs and reporting products.",
+            "Maintain the computer network in operation, under the parameters and functionality established for it.",
+            "Make backup copies and backups of information, Coordinate and schedule the use of terminals and networks.",
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "Freelance developer",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2020 - 2021 (5 months)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
+        title: "Junior programmer",
+        company: 'Megacopias la Novena',
+        period: "2019 (4 months)",
+        technologies: 'Android Studio, Excel y Firebase',
         missions: [
-            "Development of a supplier rating application by buyers.",
-            "Evolutionary and corrective maintenance of applications.",
+            "Scan inventory.",
+            "Create in Excel a database synchronized with the company network.",
+            "Create a digital process manual.",
+            "Design smartphone app.",
+            "Network support.",
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "Work-study developer",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2019 - 2020 (1 year)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
+        title: "Web and mobile programmer",
+        company: 'Kaleido Lab',
+        period: "2020 (2 months)",
+        technologies: 'Android Studio, C#, Angular, Unity y Firebase',
         missions: [
             "Application for managing trucks entering the site",
             "Improving an application for creating prevention plans.",
@@ -938,21 +918,24 @@ const experiencesFr = [
         detailIsDisplayed: false,
     },
     {
-        title: "Dévloppeur en freelance",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2020 - 2021 (5 mois)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
+        title: "Programador Junior",
+        company: 'Megacopias la Novena',
+        period: "2019 (4 meses)",
+        technologies: 'Android Studio, Excel y Firebase',
         missions: [
-            "Développement d'une application de notation de fournisseurs par les acheteurs.",
-            "Maintenance évolutive et corrective d'applications.",
+            "Digitalizar inventario.",
+            "Crear en Excel base de datos sincronizadas con la red de la empresa.",
+            "Crear un manual de proceso digital.",
+            "Diseñar aplicación para smartphone.",
+            "Soporte de redes.",
         ],
         detailIsDisplayed: false,
     },
     {
-        title: "Dévloppeur en alternance",
-        company: 'AGC Glass Europe, Maubeuge, Fr',
-        period: "2019 - 2020 (1 an)",
-        technologies: 'JAVA 8, Spring, Angular 8, Angular Materials, MySql',
+        title: "Programador Web y Mobile",
+        company: 'Kaleido Lab',
+        period: "2020 (2 meses)",
+        technologies: 'Android Studio, C#, Angular, Unity y Firebase',
         missions: [
             "Application de gestion des camions entrant sur le site",
             "Amélioration d'une application de création de plans de préventions.",
@@ -1068,8 +1051,6 @@ const locale = {
         },
     }
 };
-
-
 /***/ }),
 
 /***/ "Sy1n":
@@ -1092,15 +1073,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./projects/projects.component */ "zUkc");
 /* harmony import */ var _references_references_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./references/references.component */ "en7e");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contact/contact.component */ "bzTf");
-
-
-
-
-
-
-
-
-
 
 
 class AppComponent {
@@ -1187,27 +1159,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/select */ "d3UM");
 /* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/form-field */ "kmnG");
 /* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/input */ "qFsG");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 class AppModule {
@@ -1341,7 +1292,7 @@ const locale = {
             'bachlorDegreeDesc': "Fundación Centro Colombiano de Estudios Profesionales",
             'mission': 'Misión',
             'technologies': 'Téchnologies',
-            'detail': 'Detalles',
+            'detail': 'Detalle',
             'tripsCountries': 'Belgique, Espagne, Pays-Bas, Suisse',
             'boardGamesPlayed': 'Ajedrez, Dominó, Parqués',
             'years': 'años',

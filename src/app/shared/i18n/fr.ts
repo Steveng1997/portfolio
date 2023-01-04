@@ -47,7 +47,7 @@ export const locale = {
             'bachlorDegreeDesc': "Fundación Centro Colombiano de Estudios Profesionales",
             'mission':'Misión',
             'technologies':'Tecnología',
-            'detail':'Detalles',
+            'detail':'Detalle',
             'tripsCountries':'Belgique, Espagne, Pays-Bas, Suisse',
             'boardGamesPlayed':'Ajedrez, Dominó, Parqués',
             'years':'años',
