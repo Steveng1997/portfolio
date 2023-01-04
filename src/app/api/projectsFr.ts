@@ -2,7 +2,7 @@ export const projectsFr = [
     {
         id:"teamTraveler",
         name: "Infoverses",
-        technologies: 'Angular, Firebase, Bootstrap',
+        technologies: 'Angular, Firebase, Bootstrap, Servicios, Html5, CSS',
         images: [
             {
                 title:'',

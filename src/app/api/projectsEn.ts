@@ -2,7 +2,7 @@ export const projectsEn = [
     {
         id:"teamTraveler",
         name: "Infoverses",
-        technologies: 'Angular, Firebase, Bootstrap',
+        technologies: 'Angular, Firebase, Bootstrap, Services, Html5, CSS',
         images: [
             {
                 title:'Trip',
