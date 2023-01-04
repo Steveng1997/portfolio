@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { TranslationLoaderService } from '../service/translation-loader.service';
 import { locale as english } from '../shared/i18n/en';
 import { locale as french } from '../shared/i18n/fr';
-import { projectsEn} from '../api/projectsEn';
-import { projectsFr} from '../api/projectsFr';
+import { projectsEn } from '../api/projectsEn';
+import { projectsFr } from '../api/projectsFr';
 
 import { TranslateService } from '@ngx-translate/core';
 @Component({
@@ -12,25 +12,25 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects:any[]=projectsEn;
+  projects: any[] = projectsEn;
   venobox: any;
-  constructor(private _translationLoaderService: TranslationLoaderService,private _translateService: TranslateService) {
+  constructor(private _translationLoaderService: TranslationLoaderService, private _translateService: TranslateService) {
     this._translationLoaderService.loadTranslations(english, french);
-    this._translateService.onLangChange.subscribe(()=>{
-      if(this._translateService.currentLang=="en"){
-        this.projects=projectsEn;
+    this._translateService.onLangChange.subscribe(() => {
+      if (this._translateService.currentLang == "en") {
+        this.projects = projectsEn;
       }
-      else{
-        this.projects=projectsFr;
+      else {
+        this.projects = projectsFr;
       }
     });
   }
 
   ngOnInit(): void {
-    
+
   }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     console.log("after view init");
     this.onMouse("portfolio-link", "portfolio-img");
     this.onMouse("teamTraveler-link", "teamTraveler-img");
@@ -42,8 +42,8 @@ export class ProjectsComponent implements OnInit {
   }
 
   detailOnClick(project: any) {
-    this.projects.filter(item=>item.detailIsDisplayed && item.id!=project.id).map(elem=>elem.detailIsDisplayed=false);
-    project.detailIsDisplayed=!project.detailIsDisplayed;
+    this.projects.filter(item => item.detailIsDisplayed && item.id != project.id).map(elem => elem.detailIsDisplayed = false);
+    project.detailIsDisplayed = !project.detailIsDisplayed;
   }
 
   onMouse(idLink: String, idImage: String) {

@@ -10,10 +10,10 @@
                             [ngStyle]="{'backgroundImage':'url('+project.images[0].src+')'}">
                         </div>
                         <div id="{{project.id}}-link" class="links mt-auto d-flex justify-content-center">
-                            <a *ngFor="let image of project.images;let index=index" href="{{image.src}}" data-gall="project.id"
-                                class="venobox vbox-item" title="{{image.title}}"><i *ngIf="index==0" class="bx bx-zoom-in bx-md"></i></a>
-                            <a href="{{project.url}}"
-                                title="" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+                            <!-- <a *ngFor="let image of project.images;let index=index" href="{{image.src}}"
+                                data-gall="project.id" class="venobox vbox-item" title="{{image.title}}"><i
+                                    *ngIf="index==0" class="bx bx-zoom-in bx-md"></i></a> -->
+                            <a href="{{project.url}}" title="" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
                         </div>
                     </div>
                     <div class="card-body">
@@ -21,9 +21,11 @@
                         <h5 class="card-title"><strong>Technologies:</strong> </h5>
                         <p class="card-text">{{project.technologies}}</p>
                         <div class="d-flex flex-row justify-content-center">
-                            <a href="{{project.codeSourceUrl}}" target="_blank" target="_blank"
-                                type="button" class="btn btn-primary mr-3">{{'projects.sourceCode' | translate}}</a>
-                            <button (click)="detailOnClick(project)" type="button" class="btn btn-primary"><span *ngIf="!project.detailIsDisplayed">+</span><span *ngIf="project.detailIsDisplayed">-</span>
+                            <!-- <a href="{{project.codeSourceUrl}}" target="_blank" target="_blank" type="button"
+                                class="btn btn-primary mr-3">{{'projects.sourceCode' | translate}}</a> -->
+                            <button (click)="detailOnClick(project)" type="button" class="btn btn-primary"><span
+                                    *ngIf="!project.detailIsDisplayed">+</span><span
+                                    *ngIf="project.detailIsDisplayed">-</span>
                                 {{'projects.projectDetail' | translate}}</button>
                         </div>
                         <div *ngIf="project.detailIsDisplayed" [innerHTML]="project.detail" class="mt-3">

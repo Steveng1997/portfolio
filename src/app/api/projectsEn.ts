@@ -1,12 +1,12 @@
 export const projectsEn = [
     {
         id:"teamTraveler",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        name: "Infoverses",
+        technologies: 'Angular, Firebase, Bootstrap',
         images: [
             {
                 title:'Trip',
-                src: "assets/images/voyages.webp",
+                src: "assets/images/infoverses.webp",
             },
             {
                 title:'Trip',
@@ -17,8 +17,8 @@ export const projectsEn = [
                 src: "assets/images/logements.webp",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail:"The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> no more problems with choices or disagreements.",
+        url: "https://www.infoverses.com/",
+        detail:"<p>The website explains in detail a shopping mall game, it has two types of worlds: water and land. </p> <p>At the top you have to register and log in, when you enter you have the information of the person and the purchase history. </p>",
         codeSourceUrl:'https://github.com/zinedineBenkhider/team_traveler',
         detailIsDisplayed: false,
     },

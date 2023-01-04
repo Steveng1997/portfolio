@@ -13,12 +13,12 @@ __webpack_require__.r(__webpack_exports__);
 const projectsEn = [
     {
         id: "teamTraveler",
-        name: "Team Traveler",
-        technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
+        name: "Infoverses",
+        technologies: 'Angular, Firebase, Bootstrap',
         images: [
             {
                 title: 'Trip',
-                src: "assets/images/voyages.webp",
+                src: "assets/images/infoverses.webp",
             },
             {
                 title: 'Trip',
@@ -29,8 +29,8 @@ const projectsEn = [
                 src: "assets/images/logements.webp",
             },
         ],
-        url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail: "The application will allow you to organize group trips easily and quickly. Vote for dates, transport, accommodation or even activities. Thanks to this <a title='Download on Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> no more problems with choices or disagreements.",
+        url: "https://www.infoverses.com/",
+        detail: "<p>The website explains in detail a shopping mall game, it has two types of worlds: water and land. </p> <p>At the top you have to register and log in, when you enter you have the information of the person and the purchase history. </p>",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/team_traveler',
         detailIsDisplayed: false,
     },
@@ -815,8 +815,8 @@ const referencesEn = [
         message: "Zinedine completed her internship in my company. He is independent and has a great learning ability. He meets delivery deadlines. He has team spirit. Zinedine does not hesitate to propose new relevant ideas. He respects the instructions, its code is clean.",
     },
     {
-        personImg: "assets/images/mohamed-yahiatene.jpg",
-        personFullname: 'Yahiatene Mohamed',
+        personImg: "assets/images/Rodrigo.jpg",
+        personFullname: 'Rodrigo Escobar',
         personPosition: "DevOps Engineer",
         personCompany: 'AG2R La Mondiale',
         message: "I worked for two years with Zinedine at the University of Lille. Zinedine is a very good working partner with high knowledge in backend and frontend development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his colleagues whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
@@ -1310,7 +1310,7 @@ const locale = {
         },
         'projects': {
             'title': 'Proyectos',
-            'projectDetail': 'Détail projet',
+            'projectDetail': 'Detalle proyecto',
             'sourceCode': 'Code source',
         },
         'references': {
@@ -1492,8 +1492,8 @@ const referencesFr = [
         message: "Zinedine a effectué son stage dans mon entreprise. Il est indépendant et a une grande capacité d'apprentissage. Il respecte les délais de livraison. Il a l'esprit d'équipe. Zinedine n'hésite pas à proposer de nouvelles idées pertinentes. Il respecte les consignes, son code est propre.",
     },
     {
-        personImg: "assets/images/mohamed-yahiatene.jpg",
-        personFullname: 'Yahiatene Mohamed',
+        personImg: "assets/images/Rodrigo.jpg",
+        personFullname: 'Rodrigo Escobar',
         personPosition: "DevOps Engineer",
         personCompany: 'AG2R La Mondiale',
         message: "J'ai travaillé pendant deux ans avec Zinedine à l'Université de Lille. Zinedine est un très bon partenaire de travail avec une grande connaissance du développement backend et frontend, il est toujours désireux d'aller de l'avant sans jamais avoir peur d'utiliser de nouvelles technologies. Il n'hésite pas à aider ses collègues chaque fois qu'il le peut. Il parvient à résoudre les problèmes rapidement et efficacement avec un optimisme typique.",
@@ -2006,12 +2006,12 @@ __webpack_require__.r(__webpack_exports__);
 const projectsFr = [
     {
         id: "teamTraveler",
-        name: "Team Traveler",
+        name: "Infoverses",
         technologies: 'Android Studio, Java, FireBase, MVP, NoSql',
         images: [
             {
                 title: '',
-                src: "assets/images/voyages.webp",
+                src: "assets/images/infoverses.webp",
             },
             {
                 title: '',
@@ -2023,7 +2023,7 @@ const projectsFr = [
             },
         ],
         url: "https://play.google.com/store/apps/details?id=team.traveler.teamtraveler",
-        detail: "L'application vous permettra d'organiser des voyage en groupe facilement et rapidement. Votez pour les dates, les transports, hébergement ou même les activités. Grâce à cette <a title='Télécharger sur Google Play' href='https://play.google.com/store/apps/details?id=team.traveler.teamtraveler'>application</a> plus de problème de choix ou désaccords.",
+        detail: "<p>La página web explica con detalles un juego de un centro comercial, tiene dos tipos de mundos: acuático y terrestre. </p> <p>En la parte superior tiene para registrarse e iniciar sesión, al ingresar tiene la información de la persona y el historial de compra. </p>",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/team_traveler',
         detailIsDisplayed: false,
     },

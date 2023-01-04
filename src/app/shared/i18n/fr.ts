@@ -66,7 +66,7 @@ export const locale = {
         },
         'projects': {
             'title': 'Proyectos',
-            'projectDetail':'Détail projet',
+            'projectDetail':'Detalle proyecto',
             'sourceCode':'Code source',
         },
         'references': {
