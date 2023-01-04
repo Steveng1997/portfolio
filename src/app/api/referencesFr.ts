@@ -1,7 +1,7 @@
 export const referencesFr = [
     {
         personImg: "assets/images/unknown.jpg",
-        personFullname: 'Velghe Walter',
+        personFullname: 'Katherine Valencia',
         personPosition: "IT Plant Manager",
         personCompany: 'Agc glass europe',
         message: "Zinedine est très efficace dans le développement d'applications et dans leur maintenance, innovante et rationnelle. Coder comme style de vie, son travail propose des produits de haute qualité, suivant les normes et les meilleures pratiques. Il a réalisé trois projets sur notre site et je suis tellement impressionné par ses techniques. Il a toujours une pensée critique. Il est toujours prêt à relever des défis.",

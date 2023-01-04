@@ -802,7 +802,7 @@ __webpack_require__.r(__webpack_exports__);
 const referencesEn = [
     {
         personImg: "assets/images/unknown.jpg",
-        personFullname: 'Velghe Walter',
+        personFullname: 'Katherine Valencia',
         personPosition: "IT Plant Manager",
         personCompany: 'Agc glass europe',
         message: "Zinedine is very effective in application development and in their maintenance, innovative and rational. Coding like lifestyle, his work features high quality products, following the standards and best practices. He has completed three projects on our site and I am so impressed with his techniques. He always has a thought criticism. He is always ready to take on challenges.",
@@ -1025,8 +1025,8 @@ const locale = {
             'enterIdentify': 'Enter your identify',
             'email': 'Email',
             'enterEmail': 'Enter your email',
-            'object': 'Object',
-            'enterObject': 'Enter object',
+            'object': 'Phone',
+            'enterObject': 'Enter phone',
             'message': 'Message',
             'send': 'Send',
         },
@@ -1289,17 +1289,17 @@ const locale = {
             'myResearch': 'Recherche de contrat CDI',
             'researchDescription': "Busco una empresa innovadora y centrada en el usuario para satisfacer mejor las necesidades del cliente, desde su idea hasta la entrega final de su proyecto, o participar en la mejora de un proyecto existente.",
             'and': 'et',
-            'followMeOn': 'Suivez-moi sur',
+            'followMeOn': 'Sigueme en',
         },
         'contact': {
             'contactMe': 'Contáctame',
             'notHesitateToContactMe': "No dude en ponerse en contacto conmigo",
-            'identify': 'Identifiant',
-            'enterIdentify': 'Entrez votre identifiant',
+            'identify': 'Usuario',
+            'enterIdentify': 'Ingrese su nombre de usuario',
             'email': 'Correo Electrónico',
-            'enterEmail': 'Ingrese Correo Electrónico',
-            'object': 'Objet',
-            'enterObject': "Saisissez l'objet",
+            'enterEmail': 'Ingrese su correo electrónico',
+            'object': 'Celular',
+            'enterObject': "Ingrese su numero de celular",
             'message': 'Message',
             'send': 'Envoyer',
         },
@@ -1316,14 +1316,14 @@ const locale = {
             'goodLevel': 'Bon niveau',
             'spanish': 'Spanish',
             'english': 'Anglais',
-            'masterDegreeTwo': "Tecnologia en Sistemas de Información",
+            'masterDegreeTwo': "Tecnología en Sistemas de Información",
             'masterDegreeTwoDesc': "Fundación Centro Colombiano de Estudios Profesionales",
             'masterDegreeOne': "Técnico en Sistemas",
             'masterDegreeOneDesc': "Centro Nacional de Asistencia Técnica a la Industria ASTIN",
             'bachlorDegree': "Diploado en Desarrollo de APPS Moviles Hibridas",
             'bachlorDegreeDesc': "Fundación Centro Colombiano de Estudios Profesionales",
             'mission': 'Misión',
-            'technologies': 'Téchnologies',
+            'technologies': 'Tecnología',
             'detail': 'Detalle',
             'tripsCountries': 'Belgique, Espagne, Pays-Bas, Suisse',
             'boardGamesPlayed': 'Ajedrez, Dominó, Parqués',
@@ -1351,8 +1351,8 @@ const locale = {
         'skills': {
             'title': 'Habilidades',
             'technologies': 'Téchnologies',
-            'tools': 'Outils',
-            'methodologies': 'Méthodologies'
+            'tools': 'Herramientas',
+            'methodologies': 'Metodologías'
         },
     }
 };
@@ -1511,7 +1511,7 @@ __webpack_require__.r(__webpack_exports__);
 const referencesFr = [
     {
         personImg: "assets/images/unknown.jpg",
-        personFullname: 'Velghe Walter',
+        personFullname: 'Katherine Valencia',
         personPosition: "IT Plant Manager",
         personCompany: 'Agc glass europe',
         message: "Zinedine est très efficace dans le développement d'applications et dans leur maintenance, innovante et rationnelle. Coder comme style de vie, son travail propose des produits de haute qualité, suivant les normes et les meilleures pratiques. Il a réalisé trois projets sur notre site et je suis tellement impressionné par ses techniques. Il a toujours une pensée critique. Il est toujours prêt à relever des défis.",
