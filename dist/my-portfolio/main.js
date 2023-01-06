@@ -37,7 +37,7 @@ const projectsEn = [
     {
         id: "mautic",
         name: "Satmapp",
-        technologies: 'Ionic, CSS, Bootstrap, Html5, CSS',
+        technologies: 'Ionic, CSS, Bootstrap, Html5, CSS, Services',
         images: [
             {
                 title: 'Marketing campaigns',
@@ -57,18 +57,18 @@ const projectsEn = [
             },
         ],
         url: 'https://youtu.be/9qami3uNYFo',
-        detail: "<p>Mautic is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
+        detail: "<p>The application consists of viewing the registered lessons with details of whether the lesson is closed or open, it also has details of the field visited, the number of people on the site and the date with time. </p><p> You can publish lessons with their respective name, observations, processes and you can make a recording or take a photo. Also, it has the information of the lessons recorded in detail for each user they enter.</p>",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/mautic_monitoring',
         detailIsDisplayed: false,
     },
     {
         id: "pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        name: "Reto Icfes",
+        technologies: 'Angular, Bootstrap, Services, Firestore, CSS, Html5',
         images: [
             {
                 title: 'Pokedex',
-                src: "assets/images/pokedex.png",
+                src: "assets/images/retoIcfes.png",
             },
             {
                 title: 'Trainers',
@@ -79,23 +79,23 @@ const projectsEn = [
                 src: "assets/images/profile-trainer.png",
             },
         ],
-        url: '#portfolio',
-        detail: "<p>Display of the details of pokemon and their trainers.</p> <p>The two micro-service application contains: pokemon management and trainer management, which exposes a REST/JSON communication channel.<br>The 3rd WEB-UI micro-service connects to both micro-services.</p>",
+        url: 'http://cesantaelena.edu.co/reto-icfes/',
+        detail: "<p>The web page consists first of a user for the teacher and for students, the student user is to carry out the challenges that are registered in the DB and in the teacher user, it is the administrator user that allows registering challenges, registering users and see everything in detail. </p><p> The challenges are 4 subjects, each subject has its own questions and answers. By answering the answer depending on whether it is true or false, you earn a point and at the end you can see how many points you have and the trophy for each subject.</p>",
         codeSourceUrl: 'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
         detailIsDisplayed: false,
     },
     {
         id: "portfolio",
-        name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        name: "Eventr infoverses",
+        technologies: 'React, Material UI, CSS, PostgreSQL, Phyton, Aws',
         images: [
             {
                 title: 'Portfolio',
-                src: "assets/images/portfolio.png",
+                src: "assets/images/eventr.png",
             },
         ],
-        url: 'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail: "<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
+        url: 'https://eventvr.infoverses.com/marketplace/experiencia?ed=eyJpZF9lbXByZXNhX3VzdWFyaW8iOiIwMzdjOWFjNS00NGQxLTQ2NTUtOTM0Zi1iZjgxZTVhODliMzQiLCJ0b2tlbiI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwWkY5MWMzVmhjbWx2SWpvaU4yRmtOMlZqWkRRdFlqWTRZaTAwWkRnMkxUaGxNVEF0T1RFMFlUQmhabVZtWldKbUlpd2laWGh3SWpveE56ZzNOelU0TnpneGZRLkJDUzFaakRJQ083QmdKd0ctdWNEek1OS09pcnBDWm9DRS05YlBra0VLZnciLCJpZF9tYXJrZXRwbGFjZSI6ImI4YzhmYjQ5LTUyYWMtNDcwYy1iN2E1LTM0MTg5NTkyYjIyZSJ9',
+        detail: "<p>The ultimate web game experience, the game is all about an avatar that can be customized to your liking. </p><p>The place is an aquatic shopping center that the avatar can move around, also interact in a chat with the people who enter and know which people are connected.</p>",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/portfolio',
         detailIsDisplayed: false,
     },
@@ -770,31 +770,15 @@ CurriculumVitaeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
+
 const environment = {
     production: false
 };
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+}),
 
+"BzaH":
 
-/***/ }),
-
-/***/ "BzaH":
-/*!*************************************!*\
-  !*** ./src/app/api/referencesEn.ts ***!
-  \*************************************/
-/*! exports provided: referencesEn */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+(function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -809,17 +793,17 @@ const referencesEn = [
     },
     {
         personImg: "assets/images/lotfi-benkhider.jpg",
-        personFullname: 'Benkhider Lotfi',
-        personPosition: "CEO & Founder",
+        personFullname: 'Jefferson Perez',
+        personPosition: "Systems Technician",
         personCompany: 'Scotfy',
-        message: "Zinedine completed her internship in my company. He is independent and has a great learning ability. He meets delivery deadlines. He has team spirit. Zinedine does not hesitate to propose new relevant ideas. He respects the instructions, its code is clean.",
+        message: "I worked with Steven at Refridcol company for 8 months. Steven is a good colleague with a great knowledge of preventive and corrective maintenance of computers, software installation and development of mobile applications and web pages. You are always eager to move forward without being afraid to use new technologies. He does not hesitate to help his teammates whenever he can. He manages to quickly resolve problems and concerns to users or customers.",
     },
     {
         personImg: "assets/images/Rodrigo.jpg",
         personFullname: 'Rodrigo Escobar',
         personPosition: "DevOps Engineer",
         personCompany: 'AG2R La Mondiale',
-        message: "I worked for two years with Zinedine at the University of Lille. Zinedine is a very good working partner with high knowledge in backend and frontend development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his colleagues whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+        message: "I worked with Steven on a few projects. Steven is a good coworker with a great knowledge of backend and frontend development, always eager to move forward without being afraid of using new technologies. He does not hesitate to help his teammates whenever he can. He manages to solve problems quickly.",
     }
 ];
 
@@ -1010,7 +994,7 @@ const locale = {
             'jobTitle': 'Web and mobile application developer',
             'introductionOfMe': 'Interested in new technologies and working methods. I like to come up with ideas that to permit to improve business processes.',
             'passionateAboutDevelopment': 'Passionate about development',
-            'mobility': 'Mobile throughout France',
+            'mobility': 'Villa del prado',
             'years': 'Years',
             'graduation': "Technology in Information Systems",
             'myResearch': 'CDI contract search',
@@ -1284,10 +1268,10 @@ const locale = {
             'jobTitle': "Desarrollador de aplicaciones web y móviles",
             'introductionOfMe': "Interesado en nuevas tecnologías y métodos de trabajo. Me gusta generar ideas que permitan mejorar los procesos comerciales.",
             'passionateAboutDevelopment': ' Apasionado del desarrollo',
-            'mobility': 'Mobile dans toute la France',
+            'mobility': 'Villa del prado',
             'years': 'ans',
             'graduation': "Tecnologia en Sistemas",
-            'myResearch': 'Recherche de contrat CDI',
+            'myResearch': 'Búsqueda de contrato CDI',
             'researchDescription': "Busco una empresa innovadora y centrada en el usuario para satisfacer mejor las necesidades del cliente, desde su idea hasta la entrega final de su proyecto, o participar en la mejora de un proyecto existente.",
             'and': 'y',
             'followMeOn': 'Sigueme en',
@@ -1314,9 +1298,9 @@ const locale = {
             'boardGames': 'Juegos de mesa',
             'languages': 'Langues',
             'fluent': 'Courant',
-            'goodLevel': 'Bon niveau',
+            'goodLevel': 'Buen nivel',
             'spanish': 'Spanish',
-            'english': 'Anglais',
+            'english': 'Ensglish',
             'masterDegreeTwo': "Tecnología en Sistemas de Información",
             'masterDegreeTwoDesc': "Fundación Centro Colombiano de Estudios Profesionales",
             'masterDegreeOne': "Técnico en Sistemas",
@@ -1516,17 +1500,17 @@ const referencesFr = [
     },
     {
         personImg: "assets/images/lotfi-benkhider.jpg",
-        personFullname: 'Benkhider Lotfi',
-        personPosition: "CEO & Founder",
+        personFullname: 'Jefferson Perez',
+        personPosition: "Técnico en sistemas",
         personCompany: 'Scotfy',
-        message: "Zinedine a effectué son stage dans mon entreprise. Il est indépendant et a une grande capacité d'apprentissage. Il respecte les délais de livraison. Il a l'esprit d'équipe. Zinedine n'hésite pas à proposer de nouvelles idées pertinentes. Il respecte les consignes, son code est propre.",
+        message: "Trabajé con Steven en la empresa Refridcol durante 8 meses. Steven es un buen compañero de trabajo con un gran conocimiento de mantenimiento preventivo y correctivo de computadores, instalación de software y de desarrollo de aplicaciones móviles y páginas web. Siempre está ansioso por avanzar sin tener miedo de usar nuevas tecnologías. No duda en ayudar a sus compañeros siempre que puede. Se las arregla para resolver problemas de manera rápida e inquietudes a los usuarios o clientes.",
     },
     {
         personImg: "assets/images/Rodrigo.jpg",
         personFullname: 'Rodrigo Escobar',
         personPosition: "DevOps Engineer",
         personCompany: 'AG2R La Mondiale',
-        message: "J'ai travaillé pendant deux ans avec Zinedine à l'Université de Lille. Zinedine est un très bon partenaire de travail avec une grande connaissance du développement backend et frontend, il est toujours désireux d'aller de l'avant sans jamais avoir peur d'utiliser de nouvelles technologies. Il n'hésite pas à aider ses collègues chaque fois qu'il le peut. Il parvient à résoudre les problèmes rapidement et efficacement avec un optimisme typique.",
+        message: "Trabajé con Steven en algunos proyectos. Steven es un buen compañero de trabajo con un gran conocimiento del desarrollo de backend y frontend, siempre está ansioso por avanzar sin tener miedo de usar nuevas tecnologías. No duda en ayudar a sus compañeros siempre que puede. Se las arregla para resolver problemas de manera rápida.",
     }
 ];
 
@@ -2060,7 +2044,7 @@ const projectsFr = [
     {
         id: "mautic",
         name: "Satmapp",
-        technologies: 'Ionic, CSS, Bootstrap, Html5, CSS',
+        technologies: 'Ionic, CSS, Bootstrap, Html5, CSS, Servicios',
         images: [
             {
                 title: 'Compagnes de marketing',
@@ -2080,18 +2064,18 @@ const projectsFr = [
             },
         ],
         url: 'https://youtu.be/9qami3uNYFo',
-        detail: "<p>Mautic est un outil open source de marketing automatique</p> <p>L'application permet d'avoir des rapports dynamiques et détaillés, d’analyser les tendances individuels des campagnes.<br> Un tableau de bord visuellement convivial vous donne un point de vue rapide unique sur la performance de: vos campagnes numériques, assets, et formulaires. </p> <p>L'application est disponible en Français et en Anglais.</p>",
+        detail: "<p>La aplicación consiste en la visualización de las lecciones registradas con detalle de que si esta cerrada o abierta la lección, también, tiene detalles del campo visitado, el número de personas en el sitio y la fecha con la hora. </p><p> Se puede publicar lecciones con su respectivo nombre, observaciones, procesos y se puede hacer una grabación o tomar una foto. También, tiene la información de las lecciones registradas detalladamente para cada usuario que ingresen. </p>",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/mautic_monitoring',
         detailIsDisplayed: false,
     },
     {
         id: "pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        name: "Reto Icfes",
+        technologies: 'Angular, Bootstrap, Services, Firestore, CSS, Html5',
         images: [
             {
                 title: 'Pokedex',
-                src: "assets/images/pokedex.png",
+                src: "assets/images/retoIcfes.png",
             },
             {
                 title: 'Trainers',
@@ -2102,23 +2086,23 @@ const projectsFr = [
                 src: "assets/images/profile-trainer.png",
             },
         ],
-        url: '#portfolio',
-        detail: "<p>Affichage du détail des pokémons et de leurs drésseurs.</p> <p>L'application contient deux micro-service: pokemon management et trainer management, qui exposent un canal de communication REST/JSON.<br>Le 3éme micro-service WEB-UI se connecte aux deux micro-service.</p>",
+        url: 'http://cesantaelena.edu.co/reto-icfes/',
+        detail: "<p>La página web consiste primero en un usuario para profesor y para estudiantes, el usuario del estudiante es para realizar los retos que están registrados en la BD y en el usuario del profesor, es el usuario del administrador que permite registrar retos, registrar usuarios y ver detalladamente todo. </p><p> Los retos son de 4 materias, cada materia tiene sus propias preguntas y respuestas. Al responder la respuesta dependiendo si es verdadero o falso se gana un punto y finalizando puedes observar cuantos puntos tienes y el trofeo de cada materia.</p>",
         codeSourceUrl: 'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
         detailIsDisplayed: false,
     },
     {
         id: "portfolio",
-        name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        name: "Eventr infoverses",
+        technologies: 'React, Material UI, CSS, PostgreSQL, Phyton, Aws',
         images: [
             {
                 title: 'Portfolio',
-                src: "assets/images/portfolio.png",
+                src: "assets/images/eventr.png",
             },
         ],
-        url: 'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail: "<p>CV sous forme de site WEB responsive que j'ai mis en open-source sur GitHub accompagné d'une publication d'un <a title='Voir l'article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> sur medium. </p>",
+        url: 'https://eventvr.infoverses.com/marketplace/experiencia?ed=eyJpZF9lbXByZXNhX3VzdWFyaW8iOiIwMzdjOWFjNS00NGQxLTQ2NTUtOTM0Zi1iZjgxZTVhODliMzQiLCJ0b2tlbiI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwWkY5MWMzVmhjbWx2SWpvaU4yRmtOMlZqWkRRdFlqWTRZaTAwWkRnMkxUaGxNVEF0T1RFMFlUQmhabVZtWldKbUlpd2laWGh3SWpveE56ZzNOelU0TnpneGZRLkJDUzFaakRJQ083QmdKd0ctdWNEek1OS09pcnBDWm9DRS05YlBra0VLZnciLCJpZF9tYXJrZXRwbGFjZSI6ImI4YzhmYjQ5LTUyYWMtNDcwYy1iN2E1LTM0MTg5NTkyYjIyZSJ9',
+        detail: "<p>Es la experiencia definitiva del juego para página web, el juego trata de un avatar que se puede personalizar a su gusto. </p><p>El lugar es un centro comercial acuático que el avatar puede moverse, también interactuar en un chat con las personas que ingresen y saber que personas están conectadas.</p>",
         codeSourceUrl: 'https://github.com/zinedineBenkhider/portfolio',
         detailIsDisplayed: false,
     },

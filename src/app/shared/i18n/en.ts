@@ -6,7 +6,7 @@ export const locale = {
             'jobTitle': 'Web and mobile application developer',
             'introductionOfMe': 'Interested in new technologies and working methods. I like to come up with ideas that to permit to improve business processes.',
             'passionateAboutDevelopment':'Passionate about development',
-            'mobility': 'Mobile throughout France',
+            'mobility': 'Villa del prado',
             'years': 'Years',
             'graduation': "Technology in Information Systems",
             'myResearch': 'CDI contract search',

@@ -8,17 +8,17 @@ export const referencesEn = [
     },
     {
         personImg: "assets/images/lotfi-benkhider.jpg",
-        personFullname: 'Benkhider Lotfi',
-        personPosition: "CEO & Founder",
+        personFullname: 'Jefferson Perez',
+        personPosition: "Systems Technician",
         personCompany: 'Scotfy',
-        message: "Zinedine completed her internship in my company. He is independent and has a great learning ability. He meets delivery deadlines. He has team spirit. Zinedine does not hesitate to propose new relevant ideas. He respects the instructions, its code is clean.",
+        message: "I worked with Steven at Refridcol company for 8 months. Steven is a good colleague with a great knowledge of preventive and corrective maintenance of computers, software installation and development of mobile applications and web pages. You are always eager to move forward without being afraid to use new technologies. He does not hesitate to help his teammates whenever he can. He manages to quickly resolve problems and concerns to users or customers.",
     },
     {
         personImg: "assets/images/Rodrigo.jpg",
         personFullname: 'Rodrigo Escobar',
         personPosition: "DevOps Engineer",
         personCompany: 'AG2R La Mondiale',
-        message: "I worked for two years with Zinedine at the University of Lille. Zinedine is a very good working partner with high knowledge in backend and frontend development, he is always keen to move forward without ever being afraid to use new technologies. He does not hesitate to help his colleagues whenever he can. He manages to solve problems quickly and efficiently with typical optimism.",
+        message: "I worked with Steven on a few projects. Steven is a good coworker with a great knowledge of backend and frontend development, always eager to move forward without being afraid of using new technologies. He does not hesitate to help his teammates whenever he can. He manages to solve problems quickly.",
     }
 ];
 

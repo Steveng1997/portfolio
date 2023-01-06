@@ -8,17 +8,17 @@ export const referencesFr = [
     },
     {
         personImg: "assets/images/lotfi-benkhider.jpg",
-        personFullname: 'Benkhider Lotfi',
-        personPosition: "CEO & Founder",
+        personFullname: 'Jefferson Perez',
+        personPosition: "Técnico en sistemas",
         personCompany: 'Scotfy',
-        message: "Zinedine a effectué son stage dans mon entreprise. Il est indépendant et a une grande capacité d'apprentissage. Il respecte les délais de livraison. Il a l'esprit d'équipe. Zinedine n'hésite pas à proposer de nouvelles idées pertinentes. Il respecte les consignes, son code est propre.",
+        message: "Trabajé con Steven en la empresa Refridcol durante 8 meses. Steven es un buen compañero de trabajo con un gran conocimiento de mantenimiento preventivo y correctivo de computadores, instalación de software y de desarrollo de aplicaciones móviles y páginas web. Siempre está ansioso por avanzar sin tener miedo de usar nuevas tecnologías. No duda en ayudar a sus compañeros siempre que puede. Se las arregla para resolver problemas de manera rápida e inquietudes a los usuarios o clientes.",
     },
     {
         personImg: "assets/images/Rodrigo.jpg",
         personFullname: 'Rodrigo Escobar',
         personPosition: "DevOps Engineer",
         personCompany: 'AG2R La Mondiale',
-        message: "J'ai travaillé pendant deux ans avec Zinedine à l'Université de Lille. Zinedine est un très bon partenaire de travail avec une grande connaissance du développement backend et frontend, il est toujours désireux d'aller de l'avant sans jamais avoir peur d'utiliser de nouvelles technologies. Il n'hésite pas à aider ses collègues chaque fois qu'il le peut. Il parvient à résoudre les problèmes rapidement et efficacement avec un optimisme typique.",
+        message: "Trabajé con Steven en algunos proyectos. Steven es un buen compañero de trabajo con un gran conocimiento del desarrollo de backend y frontend, siempre está ansioso por avanzar sin tener miedo de usar nuevas tecnologías. No duda en ayudar a sus compañeros siempre que puede. Se las arregla para resolver problemas de manera rápida.",
     }
 ];
 

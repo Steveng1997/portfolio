@@ -25,7 +25,7 @@ export const projectsEn = [
     {
         id:"mautic",
         name: "Satmapp",
-        technologies: 'Ionic, CSS, Bootstrap, Html5, CSS',
+        technologies: 'Ionic, CSS, Bootstrap, Html5, CSS, Services',
         images: [
             {
                 title:'Marketing campaigns',
@@ -46,18 +46,18 @@ export const projectsEn = [
             
         ],
         url:'https://youtu.be/9qami3uNYFo',
-        detail:"<p>Mautic is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
+        detail:"<p><p>The application consists of viewing the registered lessons with details of whether the lesson is closed or open, it also has details of the field visited, the number of people on the site and the date with time. </p><p> You can publish lessons with their respective name, observations, processes and you can make a recording or take a photo. Also, it has the information of the lessons recorded in detail for each user they enter.</p>",
         codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
         detailIsDisplayed: false,
     },
     {
         id:"pokedex",
-        name: "Pokedex",
-        technologies: 'Java, J2EE, SpringBoot, TDD, MySQL, BootStrap, Services, Deploiment',
+        name: "Reto Icfes",
+        technologies: 'Angular, Bootstrap, Services, Firestore, CSS, Html5',
         images: [
             {
-                title:'Pokedex',
-                src:   "assets/images/pokedex.png",
+                title:'Reto Icfes',
+                src:   "assets/images/retoIcfes.png",
             },
             {
                 title:'Trainers',
@@ -68,23 +68,23 @@ export const projectsEn = [
                 src: "assets/images/profile-trainer.png",
             },            
         ],
-        url:'#portfolio',
-        detail:"<p>Display of the details of pokemon and their trainers.</p> <p>The two micro-service application contains: pokemon management and trainer management, which exposes a REST/JSON communication channel.<br>The 3rd WEB-UI micro-service connects to both micro-services.</p>",
+        url:'http://cesantaelena.edu.co/reto-icfes/',
+        detail:"<p>The web page consists first of a user for the teacher and for students, the student user is to carry out the challenges that are registered in the DB and in the teacher user, it is the administrator user that allows registering challenges, registering users and see everything in detail. </p><p> The challenges are 4 subjects, each subject has its own questions and answers. By answering the answer depending on whether it is true or false, you earn a point and at the end you can see how many points you have and the trophy for each subject.</p>",
         codeSourceUrl:'https://github.com/ifi-2019/trainer-ui-zinedineBenkhider',
         detailIsDisplayed: false,
     },
     {
         id:"portfolio",
-        name: "Portfolio",
-        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        name: "Eventr infoverses",
+        technologies: 'React, Material UI, CSS, PostgreSQL, Phyton, Aws',
         images: [
             {
                 title:'Portfolio',
-                src:   "assets/images/portfolio.png",
+                src:   "assets/images/eventr.png",
             },
         ],
-        url:'https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640',
-        detail:"<p> CV in the form of a responsive WEB site that I put in open-source on GitHub accompanied by a publication of a <a title='See the article' href='https://medium.com/zinedine-projects/beautiful-cv-portfolio-72921a198640' target='_blank'>article</a> on medium. </p>",
+        url:'https://eventvr.infoverses.com/marketplace/experiencia?ed=eyJpZF9lbXByZXNhX3VzdWFyaW8iOiIwMzdjOWFjNS00NGQxLTQ2NTUtOTM0Zi1iZjgxZTVhODliMzQiLCJ0b2tlbiI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpwWkY5MWMzVmhjbWx2SWpvaU4yRmtOMlZqWkRRdFlqWTRZaTAwWkRnMkxUaGxNVEF0T1RFMFlUQmhabVZtWldKbUlpd2laWGh3SWpveE56ZzNOelU0TnpneGZRLkJDUzFaakRJQ083QmdKd0ctdWNEek1OS09pcnBDWm9DRS05YlBra0VLZnciLCJpZF9tYXJrZXRwbGFjZSI6ImI4YzhmYjQ5LTUyYWMtNDcwYy1iN2E1LTM0MTg5NTkyYjIyZSJ9',
+        detail:"<p>The ultimate web game experience, the game is all about an avatar that can be customized to your liking. </p><p>The place is an aquatic shopping center that the avatar can move around, also interact in a chat with the people who enter and know which people are connected. </p>",
         codeSourceUrl:'https://github.com/zinedineBenkhider/portfolio',
         detailIsDisplayed: false,
     },
