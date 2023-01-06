@@ -24,12 +24,12 @@ export const projectsEn = [
     },
     {
         id:"mautic",
-        name: "Mautic Monitoring",
-        technologies: 'Android Studio, Java, Rx_Java, Retrofit, MVP, Rest',
+        name: "Satmapp",
+        technologies: 'Ionic, CSS, Bootstrap, Html5, CSS',
         images: [
             {
                 title:'Marketing campaigns',
-                src:   "assets/images/compagnes.jpg",
+                src:   "assets/images/satmapp.jpg",
             },
             {
                 title:'Campaign detail',
@@ -45,7 +45,7 @@ export const projectsEn = [
             },
             
         ],
-        url:'#portfolio',
+        url:'https://youtu.be/9qami3uNYFo',
         detail:"<p>Mautic is an open source automatic marketing tool</p> <p>The application allows you to have dynamic and detailed reports, to analyze individual campaign trends.<br> A visually user-friendly dashboard gives you a unique quick view of the performance of: your digital campaigns, assets, and forms. </p> <p>The application is available in French and English.</p>",
         codeSourceUrl:'https://github.com/zinedineBenkhider/mautic_monitoring',
         detailIsDisplayed: false,
