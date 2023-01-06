@@ -11,7 +11,7 @@ export const locale = {
             'graduation': "Tecnología en Sistemas",
             'myResearch': 'Recherche de contrat CDI',
             'researchDescription': "Busco una empresa innovadora y centrada en el usuario para satisfacer mejor las necesidades del cliente, desde su idea hasta la entrega final de su proyecto, o participar en la mejora de un proyecto existente.",
-            'and':'et',
+            'and':'y',
             'followMeOn':'Sigueme en',
         },
         'contact': {
@@ -68,6 +68,7 @@ export const locale = {
             'title': 'Proyectos',
             'projectDetail':'Detalle proyecto',
             'sourceCode':'Code source',
+            'titleProject': 'Tecnología',
         },
         'references': {
             'title': 'Referencias',

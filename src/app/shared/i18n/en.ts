@@ -67,6 +67,7 @@ export const locale = {
             'title': 'Portfolio',
             'projectDetail':'Project detail',
             'sourceCode':'Source code',
+            'titleProject': 'Technology',
         },
         'references': {
             'title': 'References',

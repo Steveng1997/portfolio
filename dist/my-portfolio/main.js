@@ -1071,6 +1071,7 @@ const locale = {
             'title': 'Portfolio',
             'projectDetail': 'Project detail',
             'sourceCode': 'Source code',
+            'titleProject': 'Technology',
         },
         'references': {
             'title': 'References',
@@ -1288,7 +1289,7 @@ const locale = {
             'graduation': "Tecnologia en Sistemas",
             'myResearch': 'Recherche de contrat CDI',
             'researchDescription': "Busco una empresa innovadora y centrada en el usuario para satisfacer mejor las necesidades del cliente, desde su idea hasta la entrega final de su proyecto, o participar en la mejora de un proyecto existente.",
-            'and': 'et',
+            'and': 'y',
             'followMeOn': 'Sigueme en',
         },
         'contact': {
@@ -1344,6 +1345,7 @@ const locale = {
             'title': 'Proyectos',
             'projectDetail': 'Detalle proyecto',
             'sourceCode': 'Code source',
+            'titleProject': 'Tecnología',
         },
         'references': {
             'title': 'Referencias',
@@ -1375,10 +1377,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shared_i18n_fr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/i18n/fr */ "asqy");
 /* harmony import */ var _service_translation_loader_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../service/translation-loader.service */ "vaew");
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ngx-translate/core */ "sYmb");
-
-
-
-
 
 
 class ContactComponent {
@@ -2162,15 +2160,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _curriculum_vitae_curriculum_vitae_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./curriculum-vitae/curriculum-vitae.component */ "AY9o");
 /* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./projects/projects.component */ "zUkc");
 /* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngx-translate/core */ "sYmb");
-
-
-
-
-
-
-
-
-
 
 
 const routes = [
