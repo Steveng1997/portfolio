@@ -785,11 +785,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "referencesEn", function() { return referencesEn; });
 const referencesEn = [
     {
-        personImg: "assets/images/unknown.jpg",
+        personImg: "assets/images/katherine.jpeg",
         personFullname: 'Katherine Valencia',
-        personPosition: "IT Plant Manager",
+        personPosition: "Financial manager",
         personCompany: 'Agc glass europe',
-        message: "Zinedine is very effective in application development and in their maintenance, innovative and rational. Coding like lifestyle, his work features high quality products, following the standards and best practices. He has completed three projects on our site and I am so impressed with his techniques. He always has a thought criticism. He is always ready to take on challenges.",
+        message: "Steven is very efficient at developing applications and web pages, innovative and rational. Always think critically and willing to take on challenges.",
     },
     {
         personImg: "assets/images/lotfi-benkhider.jpg",
@@ -1285,8 +1285,8 @@ const locale = {
             'enterEmail': 'Ingrese su correo electrónico',
             'object': 'Celular',
             'enterObject': "Ingrese su numero de celular",
-            'message': 'Message',
-            'send': 'Envoyer',
+            'message': 'Mensaje',
+            'send': 'Enviar',
         },
         'education': {
             'title': 'Hoja de Vida',
@@ -1492,11 +1492,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "referencesFr", function() { return referencesFr; });
 const referencesFr = [
     {
-        personImg: "assets/images/unknown.jpg",
+        personImg: "assets/images/katherine.jpeg",
         personFullname: 'Katherine Valencia',
-        personPosition: "IT Plant Manager",
+        personPosition: "Jefe financiera",
         personCompany: 'Agc glass europe',
-        message: "Zinedine est très efficace dans le développement d'applications et dans leur maintenance, innovante et rationnelle. Coder comme style de vie, son travail propose des produits de haute qualité, suivant les normes et les meilleures pratiques. Il a réalisé trois projets sur notre site et je suis tellement impressionné par ses techniques. Il a toujours une pensée critique. Il est toujours prêt à relever des défis.",
+        message: "Steven es muy eficiente en el desarrollo de aplicaciones y páginas web, innovador y racional. Siempre piensa críticamente y dispuesto a asumir retos.",
     },
     {
         personImg: "assets/images/lotfi-benkhider.jpg",

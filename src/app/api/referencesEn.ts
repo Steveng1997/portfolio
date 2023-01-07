@@ -1,10 +1,10 @@
 export const referencesEn = [
     {
-        personImg: "assets/images/unknown.jpg",
+        personImg: "assets/images/katherine.jpeg",
         personFullname: 'Katherine Valencia',
-        personPosition: "IT Plant Manager",
+        personPosition: "Financial manager",
         personCompany: 'Agc glass europe',
-        message: "Zinedine is very effective in application development and in their maintenance, innovative and rational. Coding like lifestyle, his work features high quality products, following the standards and best practices. He has completed three projects on our site and I am so impressed with his techniques. He always has a thought criticism. He is always ready to take on challenges.",
+        message: "Steven is very efficient at developing applications and web pages, innovative and rational. Always think critically and willing to take on challenges.",
     },
     {
         personImg: "assets/images/lotfi-benkhider.jpg",

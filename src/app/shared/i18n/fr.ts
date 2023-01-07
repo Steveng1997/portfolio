@@ -24,7 +24,7 @@ export const locale = {
             'object': 'Celular',
             'enterObject': "Ingrese su numero de celular",
             'message': 'Mensaje',
-            'send': 'Envoyer',
+            'send': 'Enviar',
         },
         'education': {
             'title': 'Hoja de Vida',
