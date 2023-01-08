@@ -17,7 +17,7 @@ export const locale = {
         'contact': {
             'contactMe': 'Contact Me',
             'notHesitateToContactMe': 'Do not hesitate to contact me',
-            'identify': 'Identify',
+            'identify': 'Business',
             'enterIdentify': 'Enter your identify',
             'email': 'Email',
             'enterEmail': 'Enter your email',

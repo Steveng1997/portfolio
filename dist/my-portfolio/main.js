@@ -1005,7 +1005,7 @@ const locale = {
         'contact': {
             'contactMe': 'Contact Me',
             'notHesitateToContactMe': 'Do not hesitate to contact me',
-            'identify': 'Identify',
+            'identify': 'Business',
             'enterIdentify': 'Enter your identify',
             'email': 'Email',
             'enterEmail': 'Enter your email',
@@ -1279,7 +1279,7 @@ const locale = {
         'contact': {
             'contactMe': 'Contáctame',
             'notHesitateToContactMe': "No dude en ponerse en contacto conmigo",
-            'identify': 'Usuario',
+            'identify': 'Asunto',
             'enterIdentify': 'Ingrese su nombre de usuario',
             'email': 'Correo Electrónico',
             'enterEmail': 'Ingrese su correo electrónico',
