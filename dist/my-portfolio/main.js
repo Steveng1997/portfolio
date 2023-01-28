@@ -792,7 +792,7 @@ const referencesEn = [
         message: "Steven is very efficient at developing applications and web pages, innovative and rational. Always think critically and willing to take on challenges.",
     },
     {
-        personImg: "assets/images/lotfi-benkhider.jpg",
+        personImg: "assets/images/d.jpg",
         personFullname: 'Jefferson Perez',
         personPosition: "Systems Technician",
         personCompany: 'Scotfy',
@@ -1499,7 +1499,7 @@ const referencesFr = [
         message: "Steven es muy eficiente en el desarrollo de aplicaciones y páginas web, innovador y racional. Siempre piensa críticamente y dispuesto a asumir retos.",
     },
     {
-        personImg: "assets/images/lotfi-benkhider.jpg",
+        personImg: "assets/images/d.jpg",
         personFullname: 'Jefferson Perez',
         personPosition: "Técnico en sistemas",
         personCompany: 'Scotfy',
