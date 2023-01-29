@@ -7,7 +7,7 @@ export const referencesFr = [
         message: "Steven es muy eficiente en el desarrollo de aplicaciones y páginas web, innovador y racional. Siempre piensa críticamente y dispuesto a asumir retos.",
     },
     {
-        personImg: "assets/images/d.jpg",
+        personImg: "assets/images/unknown.jpg",
         personFullname: 'Jefferson Perez',
         personPosition: "Técnico en sistemas",
         personCompany: 'Scotfy',
