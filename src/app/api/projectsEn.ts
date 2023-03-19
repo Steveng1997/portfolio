@@ -90,12 +90,12 @@ export const projectsEn = [
     },
     {
         id:"riddle",
-        name: "Transfer Riddle",
+        name: "BigBang",
         technologies: 'Java, J2EE(Web Services), JavaScript, Html5, CSS, BootStrap',
         images: [
             {
                 title:'Riddle',
-                src:   "assets/images/riddle.png",
+                src:   "assets/images/bigbang.png",
             },
         ],
         url:'https://transfer-riddle-solver.herokuapp.com/index.html',
