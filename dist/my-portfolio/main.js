@@ -126,7 +126,11 @@ const projectsEn = [
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(/*! C:\Users\Steven Garcia\Desktop\Steven\portfolio\src\main.ts */"zUnb");
+=======
+module.exports = __webpack_require__(/*! C:\Users\steven garcia\Desktop\Steven\portfolio\src\main.ts */"zUnb");
+>>>>>>> d6ae14bcc8693e8d18824e727518e4d61cc00428
 
 
 /***/ }),
@@ -786,7 +790,7 @@ const referencesEn = [
         message: "Steven is very efficient at developing applications and web pages, innovative and rational. Always think critically and willing to take on challenges.",
     },
     {
-        personImg: "assets/images/lotfi-benkhider.jpg",
+        personImg: "assets/images/unknown.jpg",
         personFullname: 'Jefferson Perez',
         personPosition: "Systems Technician",
         personCompany: 'Scotfy',
@@ -1535,7 +1539,7 @@ const referencesFr = [
         message: "Steven es muy eficiente en el desarrollo de aplicaciones y páginas web, innovador y racional. Siempre piensa críticamente y dispuesto a asumir retos.",
     },
     {
-        personImg: "assets/images/lotfi-benkhider.jpg",
+        personImg: "assets/images/unknown.jpg",
         personFullname: 'Jefferson Perez',
         personPosition: "Técnico en sistemas",
         personCompany: 'Scotfy',
@@ -2186,17 +2190,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', component: _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"] },
-    { path: 'skills', component: _skills_skills_component__WEBPACK_IMPORTED_MODULE_4__["SkillsComponent"] },
-    { path: 'projects', component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_6__["ProjectsComponent"] },
-    { path: 'cv', component: _curriculum_vitae_curriculum_vitae_component__WEBPACK_IMPORTED_MODULE_5__["CurriculumVitaeComponent"] },
-    { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_2__["AboutComponent"] }
+    {
+        path: '', component: _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], pathMatch: 'full',
+        children: [
+            { path: 'skills', component: _skills_skills_component__WEBPACK_IMPORTED_MODULE_4__["SkillsComponent"] },
+            { path: 'projects', component: _projects_projects_component__WEBPACK_IMPORTED_MODULE_6__["ProjectsComponent"] },
+            { path: 'cv', component: _curriculum_vitae_curriculum_vitae_component__WEBPACK_IMPORTED_MODULE_5__["CurriculumVitaeComponent"] },
+            { path: 'about', component: _about_about_component__WEBPACK_IMPORTED_MODULE_2__["AboutComponent"] }
+        ]
+    }
 ];
 class AppRoutingModule {
 }
 AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
 AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); }, imports: [[
-            _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes),
+            _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, { useHash: true }),
             _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__["TranslateModule"].forRoot(),
         ], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"], _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__["TranslateModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]] }); })();
@@ -2204,7 +2212,7 @@ AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
                 imports: [
-                    _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes),
+                    _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, { useHash: true }),
                     _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__["TranslateModule"].forRoot(),
                 ],
                 exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]

@@ -7,7 +7,7 @@ export const referencesEn = [
         message: "Steven is very efficient at developing applications and web pages, innovative and rational. Always think critically and willing to take on challenges.",
     },
     {
-        personImg: "assets/images/lotfi-benkhider.jpg",
+        personImg: "assets/images/unknown.jpg",
         personFullname: 'Jefferson Perez',
         personPosition: "Systems Technician",
         personCompany: 'Scotfy',
